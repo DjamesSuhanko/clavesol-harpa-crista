@@ -4,6 +4,8 @@ Hinário independente com a identidade visual do Clave Sol, busca por número ou
 
 Os MIDI originais ficam em `/home/djames/Documents/ClaveSol/HarpaCrista/`. A conversão usa o MuseScore para obter a notação, depois o importador validado gera MusicXML, SVG, MuseScore e cursor. Sem PDFs. O áudio é sintetizado pelo player. A grafia musical é inferida do MIDI; arquivos incompatíveis ficam registrados para revisão.
 
+Acervo preparado: **639 hinos**. Um MIDI ficou pendente; consulte [o relatório](docs/RESULTADO-CONVERSAO.md).
+
 ## Conversão
 
 Veja [docs/CONVERTER-HARPA-CRISTA.md](docs/CONVERTER-HARPA-CRISTA.md). O processo é retomável, não altera os originais e não faz commit ou push automaticamente.
@@ -17,9 +19,9 @@ Veja [docs/CONVERTER-HARPA-CRISTA.md](docs/CONVERTER-HARPA-CRISTA.md). O process
 
 ## GitHub Pages
 
-Repositório preparado para **Settings → Pages → Source → GitHub Actions**. O workflow **Publicar Harpa Cristã** permite publicação manual ou por push em `main`. O commit inicial usa `[skip ci]`: publicaremos o acervo após conferir a conversão.
+Repositório preparado para **Settings → Pages → Source → GitHub Actions**. O workflow **Publicar Harpa Cristã** permite publicação manual ou por push em `main`. O commit inicial usa `[skip ci]`; o envio completo do acervo aciona a publicação.
 
-Endereço padrão: https://djamessuhanko.github.io/clavesol-harpa-crista/. O build também aceita o `base_path` fornecido pelo Pages para um domínio personalizado configurado posteriormente.
+Endereço configurado: https://harpa.clavesol.com.br/. O build também aceita o `base_path` fornecido pelo Pages para um domínio personalizado configurado posteriormente.
 
 ## Prévia local
 
